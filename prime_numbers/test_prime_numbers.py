@@ -1,4 +1,4 @@
-from prime_numbers import PrimeNumbers
+from prime_numbers.prime_numbers import PrimeNumbers
 
 
 def test_prime_numbers():

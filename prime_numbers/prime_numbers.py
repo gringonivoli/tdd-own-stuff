@@ -1,4 +1,5 @@
 from typing import List
+from prime_numbers.int import Int
 
 
 class PrimeNumbers:
@@ -8,13 +9,5 @@ class PrimeNumbers:
 
     def __iter__(self):
         for number in self._numbers:
-            if self._is_prime(number):
+            if Int(number).is_prime():
                 yield number
-
-    @staticmethod
-    def _is_prime(number):
-        result = True
-        for i in range(1, number):
-            if i != 1 and i != number and number % i == 0:
-                result = False
-        return result
