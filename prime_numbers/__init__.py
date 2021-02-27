@@ -1,0 +1,1 @@
+from prime_numbers.prime_numbers import PrimeNumbers
