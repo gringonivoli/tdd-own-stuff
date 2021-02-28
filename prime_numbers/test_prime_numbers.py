@@ -17,7 +17,7 @@ def test_prime_numbers_is_empty():
 
 
 def test_prime_numbers_is_a_list_of_prime_numbers():
-    expected_value = [1, 2, 3, 5, 7, 13, 11]
+    expected_value = [2, 3, 5, 7, 13, 11]
     prime_numbers = PrimeNumbers([1, 2, 3, 4, 5, 6, 8, 7, 13, 11, 20, 21])
 
     result = [prime_number for prime_number in prime_numbers]
