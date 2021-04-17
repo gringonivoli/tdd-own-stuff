@@ -108,6 +108,7 @@ celerybeat.pid
 variables.env
 .env
 .venv
+.python-version
 env/
 venv/
 ENV/
