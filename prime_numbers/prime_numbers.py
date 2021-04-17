@@ -9,5 +9,5 @@ class PrimeNumbers:
 
     def __iter__(self):
         for number in self._numbers:
-            if Int(number).is_prime():
+            if Int(number).prime():
                 yield number
